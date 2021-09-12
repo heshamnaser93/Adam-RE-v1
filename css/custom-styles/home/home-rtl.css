@@ -1,0 +1,104 @@
+/*start contact*/
+.hero__form.v3 {
+    float: right;
+}
+/*end contact*/
+
+
+/*start filtering*/
+.listing-filter input[type="text"] {
+    padding: 4px 40px 0 15px;
+}
+
+.filtering-section .input-search:before {
+    right: 30px;
+}
+
+.hero__form.v1 .dropdown-filter span:before {
+    right: auto;
+    left: -25px;
+}
+/*end filtering*/
+
+
+/*start about company*/
+.section-title.v2 {
+    text-align: right;
+}
+
+.about-sec .value-input-wrap button {
+    left: auto;
+}
+
+.about-sec .img-box {
+    left: 0;
+    border-right: 10px solid #fff;
+}
+/*end about company*/
+
+
+
+/*start of media queries*************/
+@media screen and (min-width: 1200px) {
+    .filtering-section .input-search {
+        padding: 0 20px 0 10px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .filtering-section .input-search:before {
+        right: 20px;
+    }
+
+
+    .hero__form.v1.filter.listing-filter .dropdown-filter {
+        margin-right: 0;
+        margin-left: 25px;
+    }
+
+    .dropdown-filter, .submit_btn {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .value-calculator-section.v1:before {
+        left: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .value-content-wrap .section-title.v2 {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .download-section .down-head {
+        text-align: left;
+        padding-left: 75px;
+    }
+
+    .download-section .links {
+        text-align: right;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about-sec .img-box {
+        left: auto;
+        border-right: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .hero__form.v1 .dropdown-filter span:before {
+        left: -15px;
+    }
+
+    .hero__form.v1.filter.listing-filter .dropdown-filter {
+        margin-left: 30px;
+    }
+}
+/*end of media queries*************/

@@ -1,0 +1,81 @@
+/*start footer*/
+.footer-wrapper.v1 {
+    padding: 0;
+    border-top: none !important;
+    background-color: #3C3C3C;
+}
+
+.footer-top-area:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3C3C3C;
+    z-index: 0;
+    opacity: .9;
+}
+
+.footer-top-area {
+    position: relative;
+    background-image: url("../../../images/bg/footer_back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+    margin-top: -2px;
+    z-index: 1;
+}
+
+.footer-top-area .container {
+    position: relative;
+}
+
+.footer-top-area .fot-block {
+    margin-bottom: 20px;
+}
+
+.footer-top-area span.big-line {
+    width: 180px;
+    background-color: #555555;
+}
+
+.footer-top-area span.sm-line {
+    width: 40px;
+}
+
+.footer-top-area .nav-folderized ul.res-list {
+    overflow: visible;
+}
+
+.footer-top-area .nav-folderized .nav h2:after {
+    display: none;
+}
+
+.footer-wrapper.v1 .footer-top-area .footer-content .title,
+.footer-wrapper.v1 .company-desc p,
+.footer-wrapper.v1 .footer-content ul li a.link-hov.style2,
+.footer-wrapper.v1 .social-buttons.style2 li a i,
+.footer-wrapper.v1 .contact-info .text,
+.footer-wrapper.v1 .contact-info .text a {
+    color: #fff;
+}
+
+.footer-wrapper.v1 .social-buttons.style2 li a:hover i,
+.footer-wrapper.v1 .footer-content ul li a.link-hov.style2:hover {
+    color: #F26C61 !important;
+}
+
+.footer-bottom-area {
+    background-color: #fff;
+}
+
+.footer-bottom-area .copy-right {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-bottom-area .priv-cop {
+    color: #F26C61;
+}
+/*end footer*/

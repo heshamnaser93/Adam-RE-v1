@@ -1,0 +1,23 @@
+/*start contact style*/
+.contact-map.v1 {
+    direction: ltr;
+    left: 0;
+    right: auto;
+}
+
+.contact-section.v1 .section-title.v2 h2 {
+    text-align: left;
+}
+
+.contact-info-item {
+    text-align: left;
+}
+
+.contact-info-item i {
+    margin-right: 10px;
+}
+
+.btn.v7 i {
+    margin-right: 10px;
+}
+/*end contact style*/

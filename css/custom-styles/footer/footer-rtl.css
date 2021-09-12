@@ -1,0 +1,19 @@
+/*start footer*/
+.footer-wrapper.v1 .footer-top-area .footer-content .title,
+.footer-content li {
+    text-align: right;
+}
+
+.footer-wrapper.v1 .contact-info .text {
+    direction: ltr;
+}
+
+.footer-top-area .social-buttons li:first-child {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.footer-top-area .social-buttons li:last-child {
+    padding-left: 0;
+}
+/*end footer*/

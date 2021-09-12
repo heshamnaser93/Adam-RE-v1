@@ -1,0 +1,31 @@
+/*start properties style*/
+/*start content side*/
+.nice-select .option:hover {
+    background-color: #F26C61;
+}
+
+.sidebar-content-right .item-filter-list li a:hover,
+.sidebar-content-right .item-filter-list li a.active {
+    color: #F26C61;
+    border: 1px solid #F26C61;
+}
+
+.sidebar-content-right .filter-sorting {
+    width: 70%;
+}
+/*end content side*/
+/*end properties style*/
+
+
+
+/*start media queries*****/
+@media only screen and (max-width: 767px) {
+    .sidebar-content-right {
+        padding-top: 0 !important;
+    }
+
+    .sidebar-content-right .view-filter {
+        display: none;
+    }
+}
+/*end media queries*****/

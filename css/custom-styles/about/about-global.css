@@ -1,0 +1,110 @@
+/*global page styles*/
+.about-section .section-title.v3 p,
+.section-title.v1 h2,
+.team-section .single-team-info span {
+    color: #F26C61;
+}
+/*global page styles*/
+
+
+/*start about section*/
+.about-section {
+    background-image: url("../../../images/bg/about-bg.jpg");
+    background-position: bottom;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+.about-section .section-title.v3 p {
+    font-weight: bold;
+}
+
+.about-section .section-title.v3 h2,
+.about-text p {
+    color: #4E4E4E;
+}
+
+.about-section .section-title.v3 h2 {
+    font-size: 24px;
+}
+
+.about-text {
+    background: none;
+}
+
+.section-title.v1 p {
+    color: #8C8C8C;
+}
+/*end about section*/
+
+
+
+/*start media queries*/
+@media screen and (min-width: 992px) {
+    .about-section {
+        padding-top: 200px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-row {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-title h2 {
+        margin-bottom: 20px;
+    }
+    .single-team-member.v2 .single-team-info {
+        padding: 5px;
+        margin: 0 10px;
+        -webkit-transform: translateY(-25px);
+        -ms-transform: translateY(-25px);
+        transform: translateY(-25px);
+    }
+
+    .single-team-member.v2 .single-team-info h4 {
+        font-size: 14px;
+    }
+    .team-section .single-team-info span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .swiper-pagination {
+       display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .about-section {
+        background-size: 300%;
+        padding-bottom: 180px
+    }
+
+    .about-section .section-title.v3 h2 {
+        font-size: 18px;
+    }
+
+    .team_prev,
+    .team_next {
+        display: none;
+    }
+
+    .swiper-pagination {
+        position: relative;
+        margin-bottom: 30px;
+        bottom: auto;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #707070;
+    }
+}
+/*end media queries*/

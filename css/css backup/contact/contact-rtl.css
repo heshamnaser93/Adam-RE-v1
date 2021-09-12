@@ -1,0 +1,30 @@
+/*start contact style*/
+.contact-map.v1 {
+    direction: ltr;
+    left: auto;
+    right: 0;
+}
+
+.contact-section.v1 .section-title.v2 h2 {
+    text-align: right;
+}
+
+.contact-info-item {
+    text-align: right;
+}
+
+.contact-info-item p.phone-p span{
+    direction: ltr;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.contact-info-item i {
+    margin-left: 10px;
+}
+
+.btn.v7 i {
+    margin-left: 10px;
+}
+/*end contact style*/
